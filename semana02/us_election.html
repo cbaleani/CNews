@@ -2,13 +2,14 @@
 <html lang="en">
     <head>
         <title>US election 2020: Who do Russia, China and Iran want to win? -- BCC</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="uss_election_css/main_content.css">
     </head>
     <body>
-        <a href="https://www.bbc.com">BBC</a>
+        <!--<a href="https://www.bbc.com" id="bbc">BBC</a>
         <nav>
             <div>
-                <ul>
+                <ul id="nav-1">
                     <li>
                         <a href="https://account.bbc.com/signin?context=news&ptrt=https%3A%2F%2Fwww.bbc.com%2Fnews%2Fele
                         ction-us-2020-54293489&userOrigin=NEWS_GNL&isCasso=false&action=sign-in&redirectUri=https%3A%2F%
@@ -41,8 +42,12 @@
                     <li>More</li>  
                 </ul>
             </div>
-        </nav> 
-        <a href="https://www.bbc.com/news">NEWS</a>
+        </nav>
+        <header id="header">
+            <a href="https://www.bbc.com/news">
+                <img src="images02/news.png" alt="NEWS">
+            </a>     
+        </header>
         <nav>
             <ul>
                 <li><a href="https://www.bbc.com/news">Home</a></li>
@@ -58,18 +63,19 @@
                 <li><a href="https://www.bbc.com/news/entertainment_and_arts">Entertainment & Arts</a></li>
                 <li>More</li>
             </ul>
-        </nav>
-        <div>
-            <header>
-                <a href="https://www.bbc.com/news/election/us2020">US Election 2020</a>
-                <h1>US election 2020: Who do Russia, China and Iran want to win?</h1>
-                <p>5 October 2020</p>
-                <a href="https://www.bbc.com/news/election/us2020">US Election 2020</a>
-            </header>
+        </nav>-->
+        <div class="container">
             <article>
-                <img src="images02/trump_biden.jpg" alt="Trump and Biden campaign posters">
-                <p> Will the Kremlin be trying to "Keep America Great"? Is Beijing rooting for Biden?</p>
-                <p> 
+                <a href="https://www.bbc.com/news/election/us2020" class="pretitle">US Election 2020</a>
+                <h1>US election 2020: Who do Russia, China and Iran want to win?</h1>
+                <div class="time">5 October 2020</div>
+                <a href="https://www.bbc.com/news/election/us2020" class="election">US Election 2020</a>
+                <figure class="figure-one">
+                    <img id= "first-picture" src="images02/trump_biden.jpg" alt="Trump and Biden campaign posters" 
+                    width="646" height="363">
+                </figure>
+                <p class="intro"> Will the Kremlin be trying to "Keep America Great"? Is Beijing rooting for Biden?</p>
+                <p id="first-p"> 
                     These questions are on the minds of the US intelligence community in the run-up to November's vote. 
                     <a href="https://www.bbc.com/news/election-us-2020-53702872" target="_blank">An assessment from a 
                     top official</a> warns foreign powers will use "covert and overt influence measures" to try to sway
@@ -86,7 +92,7 @@
                 </p>
                 <p> So with a little over a month to go, what do US voters need to know?</p>
                 <section>
-                    <p> RUSSIA </p>
+                    <p class="title-sec"> RUSSIA </p>
                     <p>
                         <strong>What does the intelligence say?</strong> As you may have noticed, Russia had a scene-
                         stealing role in the 2016 US election and its aftermath.
@@ -102,7 +108,13 @@
                         win, concluding his campaign was an easy target for foreign influence but stopping short of 
                         alleging criminal conspiracy.
                     </p>
-                    <img src="images02/putin_trump.jpg" alt="Presidents Putin and Trump">
+                    <figure>
+                        <img src="images02/putin_trump.jpg" alt="Presidents Putin and Trump" width="616" height="347">
+                        <figcaption>
+                            US intelligence say that Russia has never stopped trying to interfere in US 
+                            politics
+                        </figcaption>
+                    </figure>
                     <p>
                         As for 2020, this time swap Hillary Clinton for Joe Biden. In his assessment, intended to be 
                         read by the American public, the head of the National Counterintelligence and Security Center 
@@ -143,7 +155,7 @@
                     </p>
                 </section>
                 <section>
-                    <p>CHINA</p>
+                    <p class="title-sec">CHINA</p>
                     <p>
                         <strong>What does the intelligence say?</strong> Prominent voices in the Trump administration 
                         have argued that it is China, rather than Russia, that poses the main threat this year.
@@ -157,7 +169,13 @@
                         In his assessment, Mr Evanina said US intelligence believes "China prefers that President Trump- 
                         whom Beijing sees as unpredictable - does not win re-election".
                     </p>
-                    <img src="images02/xi_jinping.jpg" alt="China's president">
+                    <figure>
+                        <img src="images02/xi_jinping.jpg" alt="China's president" width="616" height="347">
+                        <figcaption>
+                            China's Xi Jinping. The Trump administration says China poses the greatest threat to the US 
+                            election
+                        </figcaption>
+                    </figure>
                     <p>
                         "China is expanding its influence efforts to shape the policy environment in the United States, 
                         pressure political figures it views as opposed to China's interests, and counter criticism of 
@@ -202,9 +220,10 @@
                         issues</a>. Democrats though argue that when it comes to the election at least, it is Russia 
                         that is being most aggressive.
                     </p>
+                    <img id ="border-image" src="images02/border_image.jpg">
                 </section>
-                    <p>Who does US fear most? Depends who you ask</p>
-                    <img src="images02/gordon_corera.png" alt="Analysis by Gordon Corera">
+                    <p id="analysis-sec">Who does US fear most? Depends who you ask</p>
+                    <img id="img-analysis" src="images02/gordon_corera.png" alt="Analysis by Gordon Corera">
                     <p>
                         In 2016, the US government, as well as social media companies, were slow to confront Russian 
                         interference. This time no one is staying quiet but the landscape has changed.
@@ -237,7 +256,7 @@
                     </p>
                 </section>
                 <section>
-                    <p>IRAN</p>
+                    <p class="title-sec">IRAN</p>
                     <p>
                         <strong>What does the intelligence say?</strong> In his statement Mr Evanina says that Tehran is 
                         against another term for President Trump, which it believes will result "in a continuation of US
@@ -257,11 +276,13 @@
                         accounts of White House officials and Mr Trump's campaign staff between May and June of this 
                         year.
                     </p>
-                    <img src="images02/iran_president.jpg" alt="Iran's president">
-                    <p> 
-                        Iran, whose President Hassan Rouhani is picture here, has dismissed claims it has picked a side 
-                        in the US election
-                    </p>
+                    <figure>
+                        <img src="images02/iran_president.jpg" alt="Iran's president" width="616" height="347">
+                        <figcaption>
+                            Iran, whose President Hassan Rouhani is picture here, has dismissed claims it has picked a 
+                            side in the US election
+                        </figcaption>
+                    </figure>
                     <p>
                         An Iranian foreign ministry spokesman called Microsoft's report "farcical". "Iran is not 
                         concerned about who will take presidency in the White House," said Saeed Khatibzadeh.
@@ -292,13 +313,15 @@
                         to be tough on Iran", pledging to push back the country's "destabilising activities" while also 
                         offering it a "path to diplomacy".
                    </p>
-                </section> 
-                <ul>
+                </section>
+                <img src="images02/us_election.png" width="616" height="53">
+                <ul class="election-list">
                     <li><a href="" target=_blank>A simple guide to the US election</a></li>
                     <li><a href="" target=_blank>How is Donald Trump doing in the polls?</a></li>
                     <li><a href="" target=_blank>Why we might not get a result on election night</a></li>
                     <li><a href="" target=_blank>Full coverage of the US election</a></li>
                 </ul>
+                <img src="images02/us_election_bottom.png" width="616" height="10">
                 <img src="images02/questions.png" alt="your questions answered">
                 <p>
                     <strong>
@@ -370,7 +393,7 @@
                 <a href="">China</a>
                 <a href="">United States</a>
             </footer>
-        </div>
         <a href="https://www.bbc.com/news/business-54261382" target=_blank>Article news - Week 01</a>
+    </div>
     </body>
 </html>

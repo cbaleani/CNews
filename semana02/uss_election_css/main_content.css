@@ -1,0 +1,152 @@
+.container {
+    width: 645px;
+    padding-top: 28px; 
+    padding-right: 16px;
+    margin: 0 auto;
+}
+
+.pretitle {
+    color: #222;
+    text-decoration: none;
+    border-bottom: 3px solid #bb1919;
+    font: 20px Helmet, Freesans, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.pretitle:hover {
+    color:rgb(17, 103, 168)
+}
+
+h1 {
+    font:700 32px/36px Helmet,Freesans,Helvetica,Arial,sans-serif; 
+}
+
+.time {
+    height: 44px;
+    color:#5a5a5a;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+}
+
+.election {
+    color:#686868;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(210, 210, 210);
+    padding: 8px;
+    margin-top: 4px;
+    margin-right: 16px;
+    font-weight:700;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+
+.figure-one {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color:rgb(219, 219, 219);
+}
+
+#first-picture {
+    margin-top: 32px;
+    margin-right: -54px;
+}
+
+.intro { 
+    color:rgb(64, 64, 64);
+    margin-top: 28px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+}
+
+#first-p {
+    margin-top: 23px;
+    color:rgb(64, 64, 64);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+}
+
+p {
+    margin-top: 18px;
+    color:rgb(64, 64, 64);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+}
+
+.title-sec {
+    margin-top: 18px;
+    padding-bottom: 8px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(220, 220, 220);
+    color:rgb(30, 30, 30);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+}
+
+figure {
+    margin: 16px 0;
+}
+
+figcaption {
+    width: 584px;
+    margin-top: -4px;
+    padding: 16px;
+    background-color: #000;
+    color: rgb(236, 236, 236);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+
+}
+
+#border-image {
+    width: 616px;
+    height: 2px;
+}
+
+#analysis-sec {
+    margin-top: 32px;
+    color:rgb(30, 30, 30);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+}
+
+#img-analysis {
+    width: 616px;
+    height: 123px;
+    margin-top: 24px;
+    margin-right: -25px;
+}
+
+.election-list a {
+    color:#222;
+    font-weight:700;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+    text-decoration-color: rgb(220, 220, 220);
+    text-decoration-style: solid;
+}
+
+.election-list li {
+    padding-left: 4px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
