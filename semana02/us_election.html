@@ -321,16 +321,16 @@
                     <li><a href="" target=_blank>Why we might not get a result on election night</a></li>
                     <li><a href="" target=_blank>Full coverage of the US election</a></li>
                 </ul>
-                <img src="images02/us_election_bottom.png" width="616" height="10">
-                <img src="images02/questions.png" alt="your questions answered">
+                <img id="election-list-bottom" src="images02/us_election_bottom.png" width="616" height="10">
+                <img id ="img-questions" src="images02/questions.png" alt="your questions answered">
                 <p>
-                    <strong>
+                    <strong id="strong-questions">
                         The US election is complicated. We want to know what questions you have about it, from 
                         candidate policies to the voting process to what might happen after 3 November.
                     </strong>
                 </p>
                 <p>Here are some of the stories we've already done based on reader questions:</p>
-                <ul>
+                <ul class="election-list">
                     <li><a href="" target=_blank>How Trump and Biden compare on abortion</a></li>
                     <li><a href="" target=_blank>Joe Biden's speech: 'Lots of sweetness and light'</a></li>
                     <li><a href="" target=_blank>What young Republicans think of Trump</a></li>
@@ -339,51 +339,53 @@
                     Send us your questions using the form below. If you can't see the forms, you may need to view 
                     the site on a desktop.
                 </p>
-                <form>
-                    <textarea name="message" placeholder="What questions do you have about the US election?"></textarea>
-                    <p>Your contact info</p>
-                    <p>We'll be in touch if we look into your question.</p>
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="email" name="email" placeholder="Email address">
-                    <input type="number" name="contact-number" placeholder="Contact number">
-                    <input type="text" name="location" placeholder="Location">
-                    <input type="number" name="age" placeholder="Age">
-                    <div>
-                        <input type="checkbox" name="permision">
-                        <span>Are you willing to be contacted by the BBC?</span>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="legal-age">
-                        <span>I am over 16 years old</span>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="terms">
-                        <span>
-                            I accept the <a href="https://wearehearken.com/terms-of-services/" target="_blank">Terms of 
-                            Service</a>
-                        </span>
-                    </div>
-                    <input type="submit" name ="submit" value="Submit">
-                    <p>
-                        In some cases a selection of your comments and questions will be published, displaying your name
-                        and location as you provide it unless you state otherwise. Your contact details will never be 
-                        published.
-                    </p>
-                    <p>
-                        At no time should you endanger yourself or others, take any unnecessary risks or infringe any 
-                        laws.
-                    </p>
-                    <p>
-                        The BBC retains the right to select from these contributions based on editorial requirements and 
-                        subject to online terms and conditions and BBC editorial guidelines. For more information about 
-                        how the BBC handles your personal data, see here.
-                    </p>
-                    <span><a href="https://wearehearken.com/terms-of-services/">Made with Hearken</a></span>
-                    <span>|</span>
-                    <span>Terms of Service</span>
-                    <span>|</span>
-                    <span>Privacy Policy</span>
-                </form>  
+                <div class="container-form">
+                    <form>
+                        <textarea name="message" placeholder="What questions do you have about the US election?"></textarea>
+                        <p id="contact-info">Your contact info</p>
+                        <p class="info-form">We'll be in touch if we look into your question.</p>
+                        <div class="group-form"><input type="text" name="name" placeholder="Name"></div>
+                        <div class="group-form"><input type="email" name="email" placeholder="Email address"></div>    
+                        <div class="group-form"><input type="number" name="contact-number" placeholder="Contact number"></div>  
+                        <div class="group-form"><input type="text" name="location" placeholder="Location"></div>
+                        <div class="group-form"><input type="number" name="age" placeholder="Age"></div>
+                        <div class="info-form">
+                            <input type="checkbox" name="permision">
+                            <span>Are you willing to be contacted by the BBC?</span>
+                        </div>
+                        <div class="info-form" >
+                            <input type="checkbox" name="legal-age">
+                            <span>I am over 16 years old</span>
+                        </div>
+                        <div class="info-form">
+                            <input type="checkbox" name="terms">
+                            <span>
+                                I accept the <a href="https://wearehearken.com/terms-of-services/" target="_blank">Terms of 
+                                Service</a>
+                            </span>
+                        </div>
+                        <input class="group-form" type="submit" name ="submit" value="Submit">
+                        <p class="info-form">
+                            In some cases a selection of your comments and questions will be published, displaying your name
+                            and location as you provide it unless you state otherwise. Your contact details will never be 
+                            published.
+                        </p>
+                        <p class="info-form">
+                            At no time should you endanger yourself or others, take any unnecessary risks or infringe any 
+                            laws.
+                        </p>
+                        <p class="info-form">
+                            The BBC retains the right to select from these contributions based on editorial requirements and 
+                            subject to online terms and conditions and BBC editorial guidelines. For more information about 
+                            how the BBC handles your personal data, see here.
+                        </p>
+                        <span><a href="https://wearehearken.com/terms-of-services/">Made with Hearken</a></span>
+                        <span>|</span>
+                        <span>Terms of Service</span>
+                        <span>|</span>
+                        <span>Privacy Policy</span>
+                    </form>
+                </div>
             </article>
             <footer>
                 <p>Related Topics</p>

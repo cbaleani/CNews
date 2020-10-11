@@ -145,8 +145,88 @@ figcaption {
 }
 
 .election-list li {
-    padding-left: 4px;
+    padding: 4px;
     margin-top: 18px;
     margin-left: 20px;
+    list-style: square;
 }
 
+#election-list-bottom {
+    margin-top: 24px;
+    margin-right: -25px;
+}
+
+#img-questions {
+    width: 616px;
+    height: 177px;
+    margin-top: 24px;
+    margin-right: -25px;
+}
+
+.questions {
+    margin-top:18px;
+}
+
+.container-form {
+    width: 591px;
+    height: 807px;
+    border: 1px solid #efefef;
+    background-color: #efefef;
+}
+
+textarea {
+    width:533.5px;
+    height: 76px;
+    padding: 11px 13px;
+    margin: 15px 15px 0 15px;
+    border: 1px solid rgb(121, 137, 154);
+    background-color: #fff;
+    color: #425558;
+    font-weight:400;
+    font-size: 14px;
+    line-height: 17.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+}
+
+#contact-info {
+    color: #425568;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Arial;
+    position: relative;
+    left: 15px;
+}
+
+.info-form {
+    color: #425568;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.5px;
+    font-family: Arial;
+    position: relative;
+    left: 15px;
+}
+
+.group-form {
+    width:533.5px;
+    height: 17px;
+    padding: 11px 13px;
+    border: 1px solid rgb(121, 137, 154);
+    background-color: #fff;
+    position: relative;
+    left: 15px;
+    margin: 5px 0;
+}
+
+.group-form input[type="text"], .group-form input[type="email"], .group-form input[type="number"] {
+    width:533.5px;
+    height:17px;
+    color: #425558;
+    font-weight:400;
+    font-size: 14px;
+    line-height: 17.5px;
+    font-family: Arial;
+    opacity: 1;
+}
