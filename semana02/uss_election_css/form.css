@@ -1,0 +1,123 @@
+.container-form {
+    width: 562px;
+    height: 807px;
+    padding: 15px 15px 0 15px;
+    border: 1px solid #efefef;
+    background-color: #efefef;
+}
+
+textarea {
+    width:534px;
+    height: 76px;
+    padding: 11px 13px;
+    margin: 0;
+    border: 1px solid rgb(121, 137, 154);
+    background-color: #fff;
+    color: #425558;
+    font-weight:400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+}
+
+#contact-info {
+    width: 562px;
+    margin: 0;
+    padding-top: 8px;
+    color: #425568;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Arial;
+}
+
+.info-form {
+    width: 562px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    color: #425568;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial;
+}
+
+.group-form {
+    width:534px;
+    height: 17px;
+    padding: 11px 13px;
+    border: 1px solid rgb(121, 137, 154);
+    background-color: #fff;
+    margin: 8px 0;
+}
+
+.group-form input[type="text"], .group-form input[type="email"], .group-form input[type="number"] {
+    width:534px;
+    padding: 1px 2px;
+    color: #425558;
+    font-weight:400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial;
+    opacity: 0.8;
+    border: 0;
+}
+
+.additional-info {
+    color: #425568;
+    padding: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial;
+}
+
+.additional-info a {
+    color:#3B94FF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial;
+    border: 0;
+    text-decoration: underline;
+    text-decoration-color: #3B94FF;
+}
+
+.button {
+    border: 0;
+    width: 560px;
+    height: 48px;
+    margin-top: 15px;
+    margin-right: 5px;
+    background-color: rgb(0, 127, 127);
+    color:#fff;
+    font-weight:800;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Arial;
+}
+
+.container-info {
+    padding-right: 30px;
+    position:relative;
+    left: 2px;
+}
+
+.minor-info a {
+    color: #79899A;
+    font-weight:400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Arial;
+}
+
+.minor-info, .link {
+    text-align: right;   
+}
+
+
+.minor-info a:visited {
+    color:#79899A;
+}
