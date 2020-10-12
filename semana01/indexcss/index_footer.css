@@ -1,0 +1,29 @@
+footer p{
+    color: #3F3F42;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
+    width: 660px;
+    padding-top: 16px;
+    margin-bottom: 24px;
+    border-top: 2px solid #B80000;
+}
+
+footer a {
+    color: #3F3F42;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
+    padding: 8px;
+    border: 1px solid rgb(219, 127, 127);
+    text-decoration: none;
+    margin-bottom: 50px;
+   
+}
+
+footer a:hover {
+    background-color: rgb(184, 0, 0);
+    color: rgb(255, 255, 255);
+}
