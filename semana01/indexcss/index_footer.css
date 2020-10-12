@@ -15,7 +15,7 @@ footer a {
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
-    font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
+    font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif;
     padding: 8px;
     border: 1px solid rgb(219, 127, 127);
     text-decoration: none;
@@ -26,4 +26,18 @@ footer a {
 footer a:hover {
     background-color: rgb(184, 0, 0);
     color: rgb(255, 255, 255);
+}
+
+#week-two {
+    position: relative;
+    top: 25px;
+    padding: 5px;
+    border: 1px solid rgb(219, 127, 127);
+    color: #fff;
+    background-color: rgb(184, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: ReithSerif, Helvetica, Arial,  freesans,sans-serif;
 }
