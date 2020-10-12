@@ -2,8 +2,11 @@
     width: 645px;
     padding-top: 28px; 
     padding-right: 16px;
-    margin: 0 auto;
+    margin: 0;
+    position: relative;
+    left: 187px;
 }
+
 
 .pretitle {
     color: #222;
@@ -22,7 +25,8 @@ h1 {
 }
 
 .time {
-    height: 44px;
+    width: 649px;
+    height: 40px;
     color:#5a5a5a;
     font-weight: 400;
     font-size: 13px;
@@ -51,6 +55,7 @@ h1 {
 }
 
 .figure-one {
+    margin-top: 20px;
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color:rgb(219, 219, 219);
@@ -69,6 +74,14 @@ a {
     font-size: 16px;
     line-height: 22px;
     font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+}
+
+a:hover {
+    color: #1167A8;
+}
+
+a:active {
+    color: #1167A8;
 }
 
 .intro { 
@@ -153,6 +166,7 @@ figcaption {
 .election-list {
     width: 592px;
 }
+
 .election-list a {
     color:#222;
     font-weight:700;
@@ -161,6 +175,14 @@ figcaption {
     font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
     text-decoration-color: rgb(220, 220, 220);
     text-decoration-style: solid;
+}
+
+.election-list a:hover {
+    color: #1167A8;
+}
+
+.election-list a:active {
+    color: #1167A8;
 }
 
 .election-list li {
@@ -184,4 +206,18 @@ figcaption {
 
 .questions {
     margin-top:18px;
+}
+
+#week-one {
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    border: 1px solid rgb(210,210,210);
+    color: #fff;
+    background-color: #007F7F;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Helvetica,Arial,sans-serif;
 }

@@ -74,7 +74,7 @@ textarea {
     font-family: Arial;
 }
 
-.additional-info a {
+.add-info-link {
     color:#3B94FF;
     font-weight: 400;
     font-size: 14px;
@@ -116,7 +116,6 @@ textarea {
 .minor-info, .link {
     text-align: right;   
 }
-
 
 .minor-info a:visited {
     color:#79899A;
