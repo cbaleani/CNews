@@ -34,6 +34,15 @@ h1 {
     font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
 }
 
+.icons i {
+    padding-right: 20px;
+}
+
+.icons {
+    position: relative;
+    left: 300px;
+}
+
 .election:hover {
     background-color: #10619f;
     color: #fff;
@@ -45,13 +54,17 @@ h1 {
     border-style: solid;
     border-color:rgb(210, 210, 210);
     padding: 8px;
-    margin-top: 4px;
+    margin-top: 9px;
     margin-right: 16px;
     font-weight:700;
     font-size: 13px;
     line-height: 16px;
     font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
     text-decoration: none;
+    width: 105px;
+    display: block;
+    position: relative;
+    top: 10px;
 }
 
 .figure-one {
@@ -64,7 +77,15 @@ h1 {
 #first-picture {
     margin-top: 32px;
     margin-right: -54px;
+    width: 646px; 
+    height: 363px;
 }
+
+.president {
+    width: 616px;
+    height: 347px;
+}
+
 
 a {
     text-decoration: none;
@@ -194,7 +215,14 @@ figcaption {
 }
 
 #election-list-bottom {
+    width:616px; 
+    height: 10px;
     margin-right: -25px;
+}
+
+#us-img {
+    width: 616px;
+    height: 53px;
 }
 
 #img-questions {
@@ -206,18 +234,4 @@ figcaption {
 
 .questions {
     margin-top:18px;
-}
-
-#week-one {
-    position: relative;
-    top: 10px;
-    padding: 5px;
-    border: 1px solid rgb(210,210,210);
-    color: #fff;
-    background-color: #007F7F;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 16px;
-    font-family: Helvetica,Arial,sans-serif;
 }

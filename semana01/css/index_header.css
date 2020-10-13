@@ -8,10 +8,10 @@ h1 {
     width: 800px;
     height: 96px;
     color: #3F3F42;
-    font-weight: 500;
-    font-size: 44px;
+    font-weight: 800;
+    font-size: 43px;
     line-height: 48px;
-    font-family: ReithSerif, Helvetica, Arial, freesans, sans-serif;
+    font-family: 'Martel Sans', sans-serif;
 }
 
 strong {
@@ -19,19 +19,23 @@ strong {
     font-weight: 500;
     font-size: 13px;
     line-height: 16px;
-    font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
+    font-family: 'Martel Sans', sans-serif;
 }
 
 div {
     width: 658px;
     position: relative;
     top: -12px;
-    color: rgb(105, 105, 105);
-    opacity: 0.8;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
-    font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
     padding-bottom: 10px;
     border-bottom: 1px solid rgb(186, 186, 186);
 }
+
+.general-info {
+    color: rgb(105, 105, 105);
+    opacity: 0.9;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'Martel Sans', sans-serif;
+}
+

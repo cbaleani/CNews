@@ -2,7 +2,7 @@
 
 ** version 1.0.0 **
 
-Create two news stories using HTML and CSS as part of Radium Rocket's "become a software develop" training.
+Create two news stories using HTML and CSS as part of Radium Rocket's "become a software developer" training.
 
 Development of HTML and CSS files to put into practice what was learned during the weekly classes of the Radium Rocket program.
 
